@@ -13,7 +13,6 @@ function createTable(rows, cols)
   {
     output = output + "<tr>";
     while(j<=cols)
-    //djnsnsdn
     {
         output = output + "<td>" + i*j + "</td>";
          j = j+1;
@@ -21,7 +20,6 @@ function createTable(rows, cols)
         output = output + "</tr>";
         j = 1;
 }
-// diknfiojnf
 output = output + "</table>";
 document.write(output);
 }
